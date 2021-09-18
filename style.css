@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@1,600&display=swap');
+body{ 
+    /* opacity: 0.6; */
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: url("https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+
+#heading{
+    opacity: 1;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+form{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 1;
+    margin-top: 100px;
+}
+#city::placeholder{
+    color: black;
+    text-align: center;
+}
+#city{
+    min-width: 60%;
+    font-size: 2rem;
+    color: black;
+    outline: none;
+}
+.text{
+    text-align: center;
+}
+
+
+
+.hide{
+    display: none;
+}
+#showdata{
+    width:300px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 1;
+}
